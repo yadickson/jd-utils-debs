@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: utils
-Source: https://github.com/org.appwork-mirror/appwork-utils
+Upstream-Name: jd-utils
+Source: https://github.com/svn2github/jd-utils
 
 Files: *
 Copyright: 2015, 

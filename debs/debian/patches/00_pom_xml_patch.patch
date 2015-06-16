@@ -1,22 +1,22 @@
---- appwork-utils-0.0+git20140605~887432732f/pom.xml	1969-12-31 20:00:00.000000000 -0400
-+++ appwork-utils-0.0+git20140605~887432732f~/pom.xml	2015-06-16 15:38:25.494351901 -0430
+--- a/pom.xml	1969-12-31 20:00:00.000000000 -0400
++++ b/pom.xml	2015-06-16 15:38:25.494351901 -0430
 @@ -0,0 +1,79 @@
 +<?xml version='1.0' encoding='UTF-8'?>
 +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 +	<modelVersion>4.0.0</modelVersion>
-+	<groupId>jdownloader</groupId>
-+	<artifactId>appwork-utils</artifactId>
++	<groupId>jd</groupId>
++	<artifactId>jd-utils</artifactId>
 +	<version>0.0</version>
 +	<packaging>jar</packaging>
-+	<name>appwork-utils</name>
-+	<url>https://github.com/jdownloader-mirror/appwork-utils</url>
++	<name>jd-utils</name>
++	<url>https://github.com/svn2github/jd-utils</url>
 +	<properties>
 +		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 +		<debian.hasPackageVersion>
 +		</debian.hasPackageVersion>
-+		<debian.mavenRules>jdownloader appwork-utils jar 0.0 * *</debian.mavenRules>
++		<debian.mavenRules>jd jd-utils jar 0.0 * *</debian.mavenRules>
 +		<debian.originalVersion>0.0</debian.originalVersion>
-+		<debian.package>appwork-utils</debian.package>
++		<debian.package>jd-utils</debian.package>
 +	</properties>
 +	<dependencies>
 +		<dependency>

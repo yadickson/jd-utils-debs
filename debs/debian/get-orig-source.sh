@@ -16,7 +16,7 @@ rm -rf "${PKG}"*
 rm -rf "${PKG}-${VER}"
 rm -f "${ZIPFILE}"
 
-wget -c -t 1 -T 5 "https://github.com/jdownloader-mirror/appwork-utils/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
+wget -c -t 1 -T 5 "https://github.com/svn2github/${PKG}/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
 
 unzip "${ZIPFILE}" || exit 1
 
@@ -37,7 +37,6 @@ rm -rf "${PKG}-${VER}"/ide
 rm -rf "${PKG}-${VER}"/libs
 rm -rf "${PKG}-${VER}"/themes
 rm -rf "${PKG}-${VER}"/src/org/appwork/proxyvole
-rm -f "${PKG}-${VER}"/src/org/appwork/utils/swing/windowmanager/MacWindowManager.java
 rm -rf "${PKG}-${VER}"/src/org/appwork/swing/synthetica
 rm -f "${PKG}-${VER}"/.git*
 

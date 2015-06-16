@@ -1,4 +1,4 @@
-Source: appwork-utils
+Source: jd-utils
 Section: java
 Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
@@ -6,9 +6,9 @@ Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
 Build-Depends-Indep: junit4, libjackson-json-java, libmiglayout-java, libsvnkit-java 
 Standards-Version: 3.9.6
-Homepage: https://github.com/jdownloader-mirror/appwork-utils
+Homepage: https://github.com/svn2github/jd-utils
 
-Package: libappwork-utils-java
+Package: libjd-utils-java
 Architecture: all
 Depends: ${misc:Depends}, ${maven:Depends}
 Suggests: ${maven:OptionalDepends}

@@ -1,0 +1,11 @@
+--- jd-utils-0.0+git20150616~be87fe7021/src/org/appwork/utils/swing/windowmanager/WindowManager.java	2015-06-16 09:29:11.000000000 -0430
++++ jd-utils-0.0+git20150616~be87fe7021~/src/org/appwork/utils/swing/windowmanager/WindowManager.java	2015-06-16 17:53:14.882145068 -0430
+@@ -55,8 +55,6 @@
+             return new WindowsWindowManager();
+         } else if (CrossSystem.isLinux()) {
+             return new LinuxWindowManager();
+-        } else if (CrossSystem.isMac()) {
+-            return new MacWindowManager();
+         } else {
+             return new DefaultWindowManager();
+         }

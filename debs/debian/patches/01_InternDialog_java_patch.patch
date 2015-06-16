@@ -1,0 +1,21 @@
+--- jd-utils-0.0+git20150616~be87fe7021/src/org/appwork/utils/swing/dialog/InternDialog.java	2015-06-16 09:29:11.000000000 -0430
++++ jd-utils-0.0+git20150616~be87fe7021~/src/org/appwork/utils/swing/dialog/InternDialog.java	2015-06-16 17:53:14.882145068 -0430
+@@ -62,11 +62,6 @@
+                 setIconImages(l);
+             }
+         }
+-        if (CrossSystem.isMac()) {
+-            final com.apple.eawt.Application application = com.apple.eawt.Application.getApplication();
+-
+-            application.requestUserAttention(true);
+-        }
+ 
+     }
+ 
+@@ -120,4 +115,4 @@
+     // public void setLayout(final LayoutManager manager) {
+     // super.setLayout(manager);
+     // }
+-}
+\ No newline at end of file
++}

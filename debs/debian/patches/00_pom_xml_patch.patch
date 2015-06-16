@@ -16,7 +16,7 @@
 +		</debian.hasPackageVersion>
 +		<debian.mavenRules>jd jd-utils jar 0.0 * *</debian.mavenRules>
 +		<debian.originalVersion>0.0</debian.originalVersion>
-+		<debian.package>jd-utils</debian.package>
++		<debian.package>libjd-utils-java</debian.package>
 +	</properties>
 +	<dependencies>
 +		<dependency>

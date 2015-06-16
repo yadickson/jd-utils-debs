@@ -4,7 +4,7 @@
 +<?xml version='1.0' encoding='UTF-8'?>
 +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 +	<modelVersion>4.0.0</modelVersion>
-+	<groupId>org.appwork.utils</groupId>
++	<groupId>jdownloader</groupId>
 +	<artifactId>appwork-utils</artifactId>
 +	<version>0.0</version>
 +	<packaging>jar</packaging>
@@ -14,7 +14,7 @@
 +		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 +		<debian.hasPackageVersion>
 +		</debian.hasPackageVersion>
-+		<debian.mavenRules>org.appwork.utils appwork-utils jar 0.0 * *</debian.mavenRules>
++		<debian.mavenRules>jdownloader appwork-utils jar 0.0 * *</debian.mavenRules>
 +		<debian.originalVersion>0.0</debian.originalVersion>
 +		<debian.package>appwork-utils</debian.package>
 +	</properties>

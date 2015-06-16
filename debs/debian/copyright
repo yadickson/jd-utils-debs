@@ -1,0 +1,24 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: utils
+Source: https://github.com/org.appwork-mirror/appwork-utils
+
+Files: *
+Copyright: 2015, 
+License: BSD or GPL-3
+
+Files: debian/*
+Copyright: 2015, Yadickson Soto <yadickson@gmail.com>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache-2.0 license
+ can be found in the file '/usr/share/common-licenses/Apache-2.0'
+
+License: BSD
+  TODO: include the full text of the license here
+
+License: GPL-3
+ On Debian systems, the full text of the GPL-3 license
+ can be found in the file '/usr/share/common-licenses/GPL-3'
+
+

@@ -1,0 +1,8 @@
+
+com.miglayout miglayout-swing jar s/.*/debian/ * *
+org.tmatesoft.svnkit svnkit jar s/.*/debian/ * *
+org.codehaus.jackson jackson-core-lgpl jar s/.*/debian/ * *
+org.codehaus.jackson jackson-mapper-lgpl jar s/.*/debian/ * *
+junit junit jar s/4\..*/4.x/ * *
+commons-lang commons-lang jar s/.*/debian/ * *
+org.appwork.utils appwork-utils jar s/.*/debian/ * *

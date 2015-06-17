@@ -1,6 +1,7 @@
 
 com.miglayout miglayout-swing jar s/.*/debian/ * *
 commons-lang commons-lang jar s/.*/debian/ * *
+de.rosstauscher.proxy_vole proxy_vole jar s/1\..*/1.x/ * *
 jd jd-utils jar s/.*/debian/ * *
 junit junit jar s/4\..*/4.x/ * *
 org.codehaus.jackson jackson-core-lgpl jar s/.*/debian/ * *

@@ -16,13 +16,13 @@ rm -rf "${PKG}"*
 rm -rf "${PKG}-${VER}"
 rm -f "${ZIPFILE}"
 
-wget -c -t 1 -T 5 "https://github.com/svn2github/${PKG}/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
+wget -c -t 1 -T 5 "https://github.com/svn2github/jd-utils/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
 
 unzip "${ZIPFILE}" || exit 1
 
 rm -f "${ZIPFILE}"
 
-mv "${PKG}"* "${PKG}-${VER}"
+mv "jd-utils"* "${PKG}-${VER}"
 
 rm -rf "${PKG}-${VER}"/.settings
 rm -f "${PKG}-${VER}"/.classpath
@@ -36,7 +36,7 @@ rm -rf "${PKG}-${VER}"/dist
 rm -rf "${PKG}-${VER}"/ide
 rm -rf "${PKG}-${VER}"/libs
 rm -rf "${PKG}-${VER}"/themes
-rm -rf "${PKG}-${VER}"/src/org/appwork/proxyvole
+rm -rf "${PKG}-${VER}"/src/org/appwork/utils/swing/windowmanager/MacWindowManager.java
 rm -rf "${PKG}-${VER}"/src/org/appwork/swing/synthetica
 rm -f "${PKG}-${VER}"/.git*
 

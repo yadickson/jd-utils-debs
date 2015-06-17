@@ -1,1 +1,2 @@
 
+jd jd-utils jar s/.*/debian/ * *

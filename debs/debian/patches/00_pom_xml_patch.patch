@@ -1,6 +1,6 @@
---- jd-utils-0.0+git20150616~be87fe7021/pom.xml	1969-12-31 20:00:00.000000000 -0400
-+++ jd-utils-0.0+git20150616~be87fe7021~/pom.xml	2015-06-16 17:53:14.854145069 -0430
-@@ -0,0 +1,79 @@
+--- jdownloader-utils-0.0+git20150616~be87fe7021/pom.xml	1969-12-31 20:00:00.000000000 -0400
++++ jdownloader-utils-0.0+git20150616~be87fe7021~/pom.xml	2015-06-17 15:03:48.521479856 -0430
+@@ -0,0 +1,84 @@
 +<?xml version='1.0' encoding='UTF-8'?>
 +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 +	<modelVersion>4.0.0</modelVersion>
@@ -49,6 +49,11 @@
 +			<artifactId>commons-lang</artifactId>
 +			<version>2.6</version>
 +		</dependency>
++		<dependency>
++			<groupId>de.rosstauscher.proxy_vole</groupId>
++			<artifactId>proxy_vole</artifactId>
++			<version>1.0.1-SNAPSHOT</version>
++		</dependency>
 +	</dependencies>
 +	<build>
 +		<directory>target</directory>
@@ -59,8 +64,8 @@
 +				<groupId>org.apache.maven.plugins</groupId>
 +				<artifactId>maven-compiler-plugin</artifactId>
 +				<configuration>
-+					<source>1.7</source>
-+					<target>1.7</target>
++					<source>1.5</source>
++					<target>1.5</target>
 +				</configuration>
 +				<version>2.5.1</version>
 +			</plugin>

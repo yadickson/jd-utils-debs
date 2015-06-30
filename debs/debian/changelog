@@ -1,6 +1,12 @@
-jdownloader-utils (0.0+git20150616~be87fe7021-1) unstable; urgency=low
+jdownloader-utils (0.0+git20150616~be87fe7021-2) unstable; urgency=medium
 
   * New release
+
+ -- Yadickson Soto <yadickson@gmail.com>  Mon, 29 Jun 2015 22:33:06 -0430
+
+jdownloader-utils (0.0+git20150616~be87fe7021-1) unstable; urgency=low
+
+  * Init commit
 
  -- Yadickson Soto <yadickson@gmail.com>  Thu, 05 Jan 2012 18:25:14 -0430
 

@@ -1,22 +1,24 @@
 --- jdownloader-utils-0.0+git20150616~be87fe7021/pom.xml	1969-12-31 20:00:00.000000000 -0400
-+++ jdownloader-utils-0.0+git20150616~be87fe7021~/pom.xml	2015-06-17 15:03:48.521479856 -0430
-@@ -0,0 +1,84 @@
++++ jdownloader-utils-0.0+git20150616~be87fe7021~/pom.xml	2015-06-29 22:06:08.670172349 -0430
+@@ -0,0 +1,87 @@
 +<?xml version='1.0' encoding='UTF-8'?>
 +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 +	<modelVersion>4.0.0</modelVersion>
 +	<groupId>jd</groupId>
 +	<artifactId>jd-utils</artifactId>
-+	<version>0.0</version>
++	<version>20150616</version>
 +	<packaging>jar</packaging>
-+	<name>jd-utils</name>
++	<name>JDownloader Appwork Utils</name>
++	<description>This packages contain the appwork-utils.</description>
 +	<url>https://github.com/svn2github/jd-utils</url>
++	<licenses>
++		<license>
++			<name>Artistic License 2.0</name>
++			<url>http://www.opensource.org/licenses/artistic-license-2.0.php</url>
++		</license>
++	</licenses>
 +	<properties>
 +		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-+		<debian.hasPackageVersion>
-+		</debian.hasPackageVersion>
-+		<debian.mavenRules>jd jd-utils jar 0.0 * *</debian.mavenRules>
-+		<debian.originalVersion>0.0</debian.originalVersion>
-+		<debian.package>libjd-utils-java</debian.package>
 +	</properties>
 +	<dependencies>
 +		<dependency>
@@ -75,8 +77,9 @@
 +				<configuration>
 +					<archive>
 +						<manifest>
-+							<classpathPrefix>/usr/share/maven-repo/</classpathPrefix>
-+							<classpathLayoutType>repository</classpathLayoutType>
++							<addClasspath>true</addClasspath>
++							<classpathLayoutType>custom</classpathLayoutType>
++							<customClasspathLayout>/usr/share/java/$${artifact.artifactId}$${dashClassifier?}.$${artifact.extension}</customClasspathLayout>
 +						</manifest>
 +					</archive>
 +				</configuration>

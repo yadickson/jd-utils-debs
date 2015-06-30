@@ -16,5 +16,5 @@ Architecture: all
 Depends: ${misc:Depends}, ${maven:Depends}
 Suggests: ${maven:OptionalDepends}
 Description: JDownloader Appwork Utils
- This packages contain the appwork-utils.
+ Contain the appwork-utils.
 

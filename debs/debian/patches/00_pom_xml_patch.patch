@@ -9,7 +9,7 @@
 +	<version>20150616</version>
 +	<packaging>jar</packaging>
 +	<name>JDownloader Appwork Utils</name>
-+	<description>This packages contain the appwork-utils.</description>
++	<description>Contain the appwork-utils.</description>
 +	<url>https://github.com/svn2github/jd-utils</url>
 +	<licenses>
 +		<license>

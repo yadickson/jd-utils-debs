@@ -1,4 +1,4 @@
-# jdownloader-utils-debs
+# jd-utils-debs
 Build Debian Package for JDownloader Appwork Utils
 
 **Build dependencies**
